@@ -26,9 +26,9 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-Route::get('status/shutdown', function () {
-    return inertia('status/shutdown/page');
-})->name('status.shutdown');
+Route::get('shutdown', function () {
+    return inertia('shutdown/page');
+})->name('shutdown');
 
 Route::get('/', HomeController::class)->name('home');
 

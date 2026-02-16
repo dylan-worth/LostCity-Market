@@ -14,7 +14,7 @@ class MarketShutdown
         }
 
         if ($request->routeIs([
-            'status.shutdown',
+            'shutdown',
             'logout',
             'admin.*',
             'ban.*',
@@ -27,10 +27,10 @@ class MarketShutdown
 
         if ($request->expectsJson()) {
             return response()->json([
-                'message' => 'Markets are temporarily shut down.',
+                'message' => 'Markets are shut down.',
             ], 503);
         }
 
-        return redirect()->route('status.shutdown');
+        return redirect()->route('shutdown');
     }
 }
