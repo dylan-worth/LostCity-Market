@@ -11,7 +11,7 @@ import { ExclamationTriangleIcon } from "@heroicons/vue/24/outline";
     <div class="mx-auto flex max-w-[620px] flex-col gap-4">
       <div class="text-center">
         <h1 class="mt-1 text-3xl font-bold text-stone-200">
-          Markets Shut Down Until Further Notice
+          Markets Shut Down
         </h1>
       </div>
 
@@ -24,41 +24,29 @@ import { ExclamationTriangleIcon } from "@heroicons/vue/24/outline";
           />
 
           <p class="text-sm text-stone-400">
-            16-Feb-2026 | This project is shut down due to server owner
-            allegations.
+            16-Feb-2026 | This project is shut down.
           </p>
         </div>
 
         <article class="prose prose-invert max-w-none prose-p:text-stone-300">
           <p>
-            Some information has come out regarding allegations of the Lost City
-            owner taking payments in exchange for favors in-game. I refuse to
-            join the discussion or delve deeper, but I do want to make it clear
-            that I do not support what was allegedly done, and I am heavily
-            disappointed to learn about it.
+            After careful consideration, I have decided to shut down Lost City
+            Markets.
           </p>
 
           <p>
-            I understand that nothing is free and that game server costs add up,
-            but if what was leaked is true, it was done in a corrupt way that
-            ruins the game's integrity.
+            I’m incredibly thankful for the past 13 months and for everyone who
+            used and supported the site during that time. It has meant a lot to
+            me to be part of this community.
           </p>
 
           <p>
-            I have built and hosted Lost City Markets for over a year now and
-            have not once accepted a penny. I loved Lost City and what it stood
-            for. Developing and hosting the Markets was my way of showing my
-            love for the project.
+            I apologize for any inconvenience this may cause, especially to
+            those who were actively using the market.
           </p>
 
           <p>
-            I am keeping item searching available for price history purposes,
-            but until information comes out that absolves the claims, no new
-            listings can be placed.
-          </p>
-
-          <p>
-            Sorry for the inconvenience,<br />
+            Thank you,<br />
 
             <span class="text-[#90c040]">BigShot</span>
           </p>
